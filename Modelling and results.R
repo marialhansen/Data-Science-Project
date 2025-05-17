@@ -98,7 +98,7 @@ test_data_clean <- test_data %>%
          !is.na(days_since_empty_capped))
 
 # -------------------------
-# 5. Modeling
+# 5. Modelling
 # -------------------------
 ## Logistic Regression
 logit_model <- glm(alert_now ~ fill_deseasoned + delta_fill + rolling_fill_rate + days_since_empty_capped, 
