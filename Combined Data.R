@@ -3,8 +3,8 @@ library("readxl")
 library(dplyr)
 
 # Combining the reports
-report_1 <- read_excel("/Users/oliversoeby/Downloads/UTF-8kk_sortering - 2024 2/kk-sortering_readings_report_1.xlsx")
-report_2 <- read_excel("/Users/oliversoeby/Downloads/UTF-8kk_sortering - 2024 2/kk-sortering_readings_report_2.xlsx")
+report_1 <- read_excel("/Users/oliversoeby/Downloads/XXXXX")
+report_2 <- read_excel("/Users/oliversoeby/Downloads/XXXXX")
 combined_data <- rbind(report_1, report_2)
 
 # Removing row 1, as it doesn't make sense here
